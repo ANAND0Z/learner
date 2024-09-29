@@ -1,0 +1,322 @@
+#main{
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+#sidebar{
+    cursor: pointer;
+    float: left;
+}
+#home,#course{
+    text-decoration: none;
+    color: black;
+    margin-top:8px;
+    float: left;
+    display: inline;
+}
+#title{
+  color: red;
+    margin: 10px;
+    display: inline;
+}
+#search{
+    display: inline;
+    border-radius: 10px;
+    margin-right: 20px;
+    text-align: center;
+}
+#login,#login1{
+    border-radius: 15px;
+    background-color: blue;
+}
+#logintag{
+    color: white;
+    text-decoration: none;
+}
+#loginbody{
+    text-align: center;
+    background-color: rgba(236, 235, 234, 0.404);
+}
+@media screen and (max-width: 600px) {
+  #login,#login1{
+    float: right;
+    margin-right: 5px;
+    width: 40px;
+    height: 20px;
+  }
+  #login{
+    display: none;
+  }
+  #login1{
+    display:inline;
+  }
+  #title{
+    font-size: 20px;
+  }
+  #search{
+    width: 100%;
+    height: 20px;
+  }
+  #home,#course{
+    margin-left: 5px;
+  }
+  #sidebar{
+    font-size: 15px;
+  }
+  #main{
+    font-size: 10px;
+  }
+  #loginpage{
+    margin-top: 15%;
+    width: 100%;
+  margin-right: 5%;}
+    #username,#password,#loginbutton{
+      width: 80%;
+      height: 50px;
+    }
+}
+@media screen and (min-width: 600px) {
+  #login,#login1{
+    margin-right: 20px;
+    width: 100px;
+    height: 40px;
+  }
+  #login1{
+    display: none;
+  }
+  #login{
+    display: inline;
+  }
+  #topright{
+    float:right;
+}
+  #title{
+    font-size: 30px
+  }
+  #search{
+    width: 200px;
+    height: 30px;
+  }
+  #home,#course{
+    margin-left: 20px;
+  }
+  #main{
+    text-align: center;
+  }
+  #sidebar{
+    font-size: 30px;  }
+  #loginpage{
+    margin-top: 5%;
+  }
+  #username,#password,#loginbutton{
+    width: 300px;
+    height: 50px;
+  }
+}
+  #loginpage{
+    display: inline-block;
+    background-color: white;
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.474);
+    border-radius: 20px;
+}
+#username,#password{
+    padding: 5px;
+    margin: 20px;
+    border-radius: 15px;
+}
+
+#forget{
+    cursor: pointer;
+    padding-left: 18px;
+    float: left;
+    color: blue;
+}
+#loginbutton{
+    cursor: pointer;
+    padding: 5px;
+    margin: 40px;
+    border-radius: 20px;
+    color: white;
+    background-color: blue;
+}
+#loginsignup{
+    cursor: pointer;
+    color: blue;
+}
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+  .overlay-content {
+    position: relative;
+    top: 6%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  .overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+  }
+  
+  .overlay .closebtn {
+    position: absolute;
+    top: 10px;
+    right: 45px;
+    font-size: 60px;
+  }
+  @media screen and (max-height: 450px) {
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+    }
+  }
+  #coursedisplay{
+    font-size: 36px;
+    margin-bottom: 0px;
+    padding: 10px;
+    background-color: red;
+  }
+  #Frontendlabel:hover,#Backendlabel:hover,#Fullstacklabel:hover,#Applabel:hover,#AIlabel:hover,
+  #Reactlabel:hover,#Clabel:hover,#Pythonlabel:hover,#Javalabel:hover,#Jslabel:hover{
+        background-color: green;
+  }
+  #skillimg{
+    width: 100%;
+  }
+  #explore{
+    font-size: 30px;
+    padding-left: 20px;
+    color:black;
+  }
+  #frontendimg,#backendimg,#fullstackimg,#appimg,#aiimg,
+  #pythonimg,#cimg,#javaimg,#jsimg,#reactimg{
+    width: 300px;
+    height: 200px;
+  }
+  
+  @media screen and (max-width:600px) {
+    #wl{
+      font-size: 25px;
+      text-align: center;
+    }
+    #intro {
+      font-size: 15px;
+      padding: 3px;
+      padding-left: 5px;
+      padding-right: 5px;
+      text-indent: 2cm;
+  }
+    #skillimg{
+      height: 150px;
+    }
+    #leftmove,#leftmove1{
+      float: left;
+      margin-top:25%;
+      font-size: 20px;
+    }
+    #rightmove,#rightmove1{
+      float: right;
+      margin-top: 25%;
+      font-size: 20px;
+    }
+    #topcourse,#programcourse{
+      margin: 5px;
+    }
+    #Frontend,#Backend,#Fullstack,#AI,#App,
+  #Python,#C,#Java,#Javascript,#React{
+    padding: 5%;
+    text-align: center;
+  }
+  #frontendimg,#backendimg,#fullstackimg,#appimg,#aiimg,
+  #pythonimg,#cimg,#javaimg,#jsimg,#reactimg{
+    width: 200px;
+    height: 150px;
+  }.details{
+    color: white;
+    padding-left: 5px;
+    margin: 5px;
+  }
+  }
+  @media screen and (min-width:600px) {
+    #wl{
+      text-align: center;
+    }
+  #intro{
+    font-size: 20px;
+    padding: 3px;
+    padding-left :20px;
+    padding-right: 20px;
+    text-indent: 4cm;
+  }
+    #skillimg{
+      height: 400px;
+    }
+  #leftmove,#leftmove1{
+    float: left;
+    margin-top:10%;
+    font-size: 40px;
+  }
+  #rightmove,#rightmove1{
+    float: right;
+    margin-top: 10%;
+    font-size: 40px;
+  }
+  #topcourse,#programcourse{
+    margin: 25px;
+  }
+  #Frontend,#Backend,#Fullstack,#AI,#App,
+  #Python,#C,#Java,#Javascript,#React{
+    
+    text-align: center;
+    padding: 20px;
+  }
+  #frontendimg,#backendimg,#fullstackimg,#appimg,#aiimg,
+  #pythonimg,#cimg,#javaimg,#jsimg,#reactimg{
+    width: 300px;
+    height: 200px;
+  }
+  .details{
+    color: white;
+    padding-left: 20px;
+  }}
+  #mainbody{
+    margin-top: 10px;
+  }
+  .list{
+    font-size: 30px;
+    padding-left: 80px;
+    color: black;
+  }
+  #frontendbtn,#backendbtn,#fullstackbtn,#aibtn,#appbtn,
+  #pythonbtn,#cbtn,#javabtn,#jsbtn,#reactbtn{
+      background-color: green;
+      color: white;
+      border-radius: 15px;
+  }
+
+#detail1{
+  background-color: black;
+}
+.line{
+  border: 1px solid rgba(128, 126, 126, 0.442);
+}
